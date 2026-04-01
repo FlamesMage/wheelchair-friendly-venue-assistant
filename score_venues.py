@@ -2,7 +2,7 @@ import pandas as pd
 from query_parser import parse_query
 
 # Load the venue data
-df = pd.read_csv("venues.csv")
+df = pd.read_csv("venues_merged.csv")
 
 # Standardise text columns
 for col in [
